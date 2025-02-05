@@ -10,7 +10,7 @@ export default function Index() {
     return (
         <ScrollView>
             <View style={styles.container}>
-                <Text style={styles.title}>Hello World!</Text>
+                <Text style={styles.title}>Hola Mayra</Text>
                 <HelloWave />
                 {boxes.map((box, index) => (
                   <BoxContainer key={index} box={box} />
