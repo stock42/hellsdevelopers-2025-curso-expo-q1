@@ -1,54 +1,34 @@
-import React, {
-    useState,
-    useEffect,
-} from  'react'
 
 import { FlatList, View } from 'react-native'
-import { BoxContainer } from '@/components/BoxContainer'
+import { CharacterContainer } from '@/components/CharacterContainer'
 import  { Screen } from '@/components/Screen'
 import { SearchBox } from '@/components/SearchBox'
 import { Text } from '@/components/Text'
 
-
-
+import { useCharacters } from '@/api-client/getCharacters'
 
 export default function Index() {
-    const [boxes, setBoxes] = useState<number[]>([])
-    const [refreshing, setRefreshing] = useState(false)
-
-    const fillBoxes = () => {
-        setRefreshing(true)
-        setBoxes([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
-        setTimeout(() => {
-            setRefreshing(false)
-        }, 2000)
-    }
-
-    useEffect(() => {
-        setTimeout(() => {
-            fillBoxes()
-        }, 2000)
-    }, [])
+    const { characters, refreshing, fetchCharacters } = useCharacters()
 
     return (
     <>
-        <Screen title="Dragon Ball Z" scroll={false}>
+        <Screen title="Dragon Expo Z" scroll={false}>
             <FlatList
                 refreshing={refreshing}
                 onRefresh={() => {
-                    fillBoxes()
+                    fetchCharacters()
                 }}
-                data={boxes}
-                renderItem={({ item }) => <BoxContainer key={item} box={item} />}
+                data={characters}
+                renderItem={({ item }) => <CharacterContainer key={item.id} character={item} />}
                 ListEmptyComponent={() => <Text center red>No hay elementos</Text>}
                 ListHeaderComponent={() => <Text center color="#fff">ListHeaderComponent</Text>}
-                ListFooterComponent={() => <Text center color="#fff">{`Total de elementos: ${boxes.length}`}</Text>}
+                ListFooterComponent={() => <Text center color="#fff">{`Total de personajes: ${characters.length}`}</Text>}
                 ItemSeparatorComponent={() => <View style={{ height: 10 }} />}
                 style={{
                     marginBottom: 100,
                 }}
                 numColumns={2}
-                keyExtractor={(item) => `${item}`}
+                keyExtractor={(item) => `${item.id}`}
             />
         </Screen>
         <SearchBox />

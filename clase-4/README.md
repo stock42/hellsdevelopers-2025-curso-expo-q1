@@ -3,7 +3,8 @@
 ## Links
 
 - https://docs.expo.dev/guides/adopting-prebuild/
-
+- https://www.canva.com/
+- https://dragonball-api.com/
 
 ## Conceptos.
 
