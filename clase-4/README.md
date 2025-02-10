@@ -66,6 +66,11 @@ Permite compilar nuestras aplicaciones de forma más rápida y eficiente en el c
 $ eas build --platform android
 ```
 
+#### Crear APK en local
+```bash
+$ eas build --platform android --local --profile preview
+```
+
 ### Icon
 Es de 1024x1024 y debe ser PNG.
 
