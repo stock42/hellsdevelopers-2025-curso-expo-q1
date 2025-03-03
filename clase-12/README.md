@@ -1,0 +1,53 @@
+# Clase 12.
+
+## Links
+
+- https://reactnative.dev/docs/hermes
+- https://reactnative.dev/architecture/fabric-renderer
+- https://reactnative.dev/docs/activityindicator
+- https://reactnative.dev/docs/imagebackground
+- https://expo.dev/eas
+- https://reactnative.dev/docs/keyboardavoidingview
+- https://reactnative.dev/docs/modal
+- https://reactnative.dev/docs/refreshcontrol
+- https://reactnative.dev/docs/switch
+- https://reactnative.dev/docs/accessibilityinfo
+- https://docs.swmansion.com/react-native-reanimated/docs/animations/withTiming
+- https://reactnative.dev/docs/appstate
+- https://reactnative.dev/docs/dimensions
+- https://reactnative.dev/docs/keyboard
+- https://reactnative.dev/docs/panresponder
+- https://reactnative.dev/docs/platform
+- https://reactnative.dev/docs/share
+- https://reactnative.dev/docs/vibration
+- https://www.npmjs.com/package/react-native-date-picker
+- https://docs.expo.dev/versions/latest/sdk/accelerometer/
+- https://docs.expo.dev/versions/latest/sdk/apple-authentication/
+- https://docs.expo.dev/versions/latest/sdk/audio/
+- https://docs.expo.dev/versions/latest/sdk/av/
+- https://docs.expo.dev/versions/latest/sdk/blur-view/
+- https://docs.expo.dev/versions/latest/sdk/calendar/
+- https://docs.expo.dev/versions/latest/sdk/captureRef/
+- https://docs.expo.dev/versions/latest/sdk/cellular/
+- https://docs.expo.dev/versions/latest/sdk/checkbox/
+- https://docs.expo.dev/versions/latest/sdk/clipboard/
+- https://docs.expo.dev/versions/latest/sdk/contacts/
+- https://docs.expo.dev/versions/latest/sdk/crypto/
+- https://docs.expo.dev/versions/latest/sdk/date-time-picker/
+- https://docs.expo.dev/versions/latest/sdk/device/
+- https://docs.expo.dev/versions/latest/sdk/fingerprint/
+- https://docs.expo.dev/versions/latest/sdk/image/
+- https://docs.expo.dev/versions/latest/sdk/imagemanipulator/
+- https://docs.expo.dev/versions/latest/sdk/imagepicker/
+- https://docs.expo.dev/versions/latest/sdk/imagepicker/
+- https://docs.expo.dev/versions/latest/sdk/intent-launcher/
+- https://docs.expo.dev/versions/latest/sdk/keep-awake/
+- https://docs.expo.dev/versions/latest/sdk/linear-gradient/
+- https://docs.expo.dev/versions/latest/sdk/local-authentication/
+- https://docs.expo.dev/versions/latest/sdk/location/
+- https://docs.expo.dev/versions/latest/sdk/lottie/
+- https://docs.expo.dev/versions/latest/sdk/mail-composer/
+- https://docs.expo.dev/versions/latest/sdk/maps/
+- https://github.com/react-native-maps/react-native-maps/tree/master
+
+## Conceptos.
